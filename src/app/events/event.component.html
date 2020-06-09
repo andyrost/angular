@@ -1,0 +1,12 @@
+
+<div class="well hoverwell thumbnail">
+<h2> {{event.name}}</h2>
+<div> {{event.date}}</div>
+<div>
+    <span>Location: {{event.location.address}}</span>
+    <span class="pad-left">{{event.location.city}}, {{event.location.state}}</span>
+</div>
+<div>
+    <button class = "btn btn-primary" (click) = "handleAttend()">Attend</button>
+</div>
+</div>

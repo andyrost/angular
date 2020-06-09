@@ -1,7 +1,10 @@
 <div>
     <h3>Upcoming Angular Events</h3>
     <hr/>
-    <div class="well hoverwell thumbnail">
-    <h2> {{event.name}}</h2>
-    </div>
+<ul>
+    <li>
+        <event #thumbnail (eventClick) = "handleEventClicked($event)" [event]="event"></event>
+    </li>
+</ul>
+<button class="btn btn-primary" (click)="thumbnail.logFoo()">Log foo</button>
 </div>
