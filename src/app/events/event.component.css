@@ -4,3 +4,6 @@
 .well div {
     color: goldenrod
 }
+.thumbnail {
+    min-height: 210px;
+}
