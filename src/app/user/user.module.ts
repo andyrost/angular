@@ -11,6 +11,7 @@ import { ProfileComponent } from './profile.component'
 
     ],
     declarations: [
+        ProfileComponent
 
     ],
     providers: [
